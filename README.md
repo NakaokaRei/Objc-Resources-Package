@@ -8,7 +8,7 @@ This bug happen in the case of running the test target from Xcode or `xcodebuild
 
 1. Clone this repository.
 2. Open Package.swift with Xcode.
-3. Run the Objc-Resources-Package test target. Or run the below command in the terminal.
+3. Run the Objc-Resources-Package scheme. Or run the below command in the terminal.
 ```
 xcodebuild -scheme Objc-Resources-Package test -destination "name=My Mac"| xcpretty
 ```
